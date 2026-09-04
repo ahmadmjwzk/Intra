@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity
             openUrl("https://getintra.org/privacy");
             return true;
           case R.id.tos:
-            openUrl("https://jigsaw.google.com/jigsaw-tos.html");
+            openUrl("https://policies.google.com/terms");
             return true;
           case R.id.source_code:
             openUrl("https://github.com/Jigsaw-Code/intra");

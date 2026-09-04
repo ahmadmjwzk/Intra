@@ -26,7 +26,8 @@ import (
 	"localhost/Intra/Android/app/src/go/doh"
 	"localhost/Intra/Android/app/src/go/intra/protect"
 
-	"github.com/Jigsaw-Code/outline-sdk/network"
+	"golang.getoutline.org/sdk/network"
+	"golang.getoutline.org/sdk/network/lwip2transport"
 )
 
 // Listener receives usage statistics when a UDP or TCP socket is closed,
